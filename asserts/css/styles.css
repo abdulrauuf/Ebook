@@ -1039,4 +1039,64 @@ body.dark-theme{
   .footer{
     padding-block: 6rem 3rem;
   }
+
+  .footer-data{
+    grid-template-columns: repeat(4, max-content);
+    column-gap: 4.5rem;
+  }
+
+  .footer-logo,
+  .footer-title{
+    font-size: var(--h2-font-size);
+    margin-bottom: 1.5rem;
+  }
+
+  .footer-links{
+    row-gap: 1rem;
+  }
+
+  .footer-social{
+    column-gap: 1.5rem;
+  }
+
+  .footer-social-link{
+    font-size: 1.5rem;
+  }
+
+  .footer-copy{
+    margin-top: 7.5rem;
+  }
+
+  .scrollup{
+    right: 3rem;
+  }
+
+  .show-scroll{
+    bottom: 3rem;
+  }
+}
+
+@media screen and (min-width: 1220px) {
+  .container{
+    margin-inline: auto;
+  }
+
+  .home-container{
+    grid-template-columns: 435px 745px;
+    align-items: center;
+    padding-block: 7rem 2rem;
+  }
+
+  .home-data{
+    text-align: initial;
+  }
+
+  .home-description{
+    margin-bottom: 4rem;
+  }
+
+  .home-article,
+  .home-img{
+    width: 290px;
+  }
 }
