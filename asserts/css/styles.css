@@ -99,7 +99,7 @@ a {
 
 img {
   display: block;
-  max-width: 100%;
+  max-width: 95%;
   height: auto;
 }
 
@@ -832,6 +832,10 @@ body.dark-theme{
 @media screen and (max-width: 320px){
   .container{
     margin-inline: 1rem;
+  }
+
+  .swiper-slide{
+    width: 50%;
   }
 
   .nav-menu{

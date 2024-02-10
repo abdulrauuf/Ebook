@@ -106,10 +106,10 @@ let swiperNew = new Swiper('.new-swiper', {
     spaceBetween: 16,
     slidesPerView: 'auto',
 
-    // autoplay: {
-    //     delay: 6800,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 6800,
+        disableOnInteraction: false,
+    },
 
     breakpoints: {
        1150: {
@@ -219,4 +219,3 @@ sr.reveal(`.home-images`, {delay: 600})
 sr.reveal(`.services-card`, {interval: 100})
 sr.reveal(`.discount-data`, {origin: 'left'})
 sr.reveal(`.discount-images`, {origin: 'right'})
-
